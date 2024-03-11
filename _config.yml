@@ -32,6 +32,11 @@ github:
 
 # twitter:
 #   username: twitter_username # change to your twitter username
+instagram:
+  username: donguri_behealthy
+
+naverblog:
+  username: donguri_behealthy
 
 social:
   # Change to your full name.
@@ -45,6 +50,7 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/oktaylor
+    - https://www.instagram.com/donguri_behealthy
     - https://blog.naver.com/donguri_behealthy
 
 # Site Verification Settings
@@ -88,10 +94,10 @@ theme_mode: # [light | dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+img_cdn: ""
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "C/Users/oktay/git/oktaylor.github.ioa/ssets/img/profile.jpg"
+avatar: "assets/img/profile.jpg"
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
@@ -101,7 +107,7 @@ toc: true
 
 comments:
   # Global switch for the post comment system. Keeping it empty means disabled.
-  provider: giscus
+  active: giscus
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -111,15 +117,15 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: oktaylor/giscus
-    repo_id: R_kgDOLelnKA
-    category: Announcements
-    category_id: DIC_kwDOLelnKM4Cd4Qy
+    repo: oktaylor/oktaylor.github.io
+    repo_id: R_kgDOLenYpA
+    category: General
+    category_id: DIC_kwDOLenYpM4Cd4fv
     mapping: # optional, default to 'pathname'
     input_position: top # optional, default to 'bottom'
     lang: ko # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
-    crossorigin: anonymous
+    crossorigin: crossorigin
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
