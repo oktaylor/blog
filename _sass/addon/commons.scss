@@ -803,11 +803,10 @@ $btn-mb: 0.5rem;
 
         &:hover {
           background-color: var(--sidebar-hover-bg);
-          span{
+          span {
             opacity: 1;
-            color: rgba(0, 73, 140, 0.99);
+            color: var(--link-color);
           }
-        }
 
         i {
           font-size: 95%;
@@ -852,8 +851,8 @@ $btn-mb: 0.5rem;
       height: $btn-size;
       margin-bottom: $btn-mb; // multi line gap
       border-radius: 50%;
-      color: rgba(73, 83, 87, 0.9);
-      background-color: rgba(255, 255, 255, 0.5);
+      color: var(--sidebar-btn-color);
+      background-color: rgba(204, 219, 233, 0.8);
       text-align: center;
       display: flex;
       align-items: center;
@@ -861,7 +860,7 @@ $btn-mb: 0.5rem;
       box-shadow: var(--sidebar-border-color) 0 0 0 1px;
 
       &:hover {
-        color: rgba(0, 73, 140, 0.99);
+        color: var(--link-color);
         background-color: var(--sidebar-hover-bg);
       }
     }
