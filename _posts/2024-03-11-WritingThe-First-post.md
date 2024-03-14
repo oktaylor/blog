@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 시작하는 글
-date: YYYY-MM-DD HH:MM:SS +09:00
+date: 2024-03-11 15:00:00 +0900
 categories: [고찰]
 tags:
   [
