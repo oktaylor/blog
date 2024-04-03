@@ -19,9 +19,7 @@ title: 연구하는 동그리 # the main title
 tagline: 연구 기록 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  연구 기록하기
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
