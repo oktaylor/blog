@@ -44,21 +44,12 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.//# change to your twitter homepage
-    - https://github.com/oktaylor # change to your github homepage
+    - https://github.com/oktaylor
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
     - https://www.linkedin.com/in/oktaylor
-    - https://www.instagram.com/donguri_behealthy
-    - https://blog.naver.com/donguri_behealthy
 
 # Site Verification Settings
-webmaster_verifications:
-  google: zhuL18Fy0AfdNeHZEwPdUViwscS94GTYMKdP-Jhq5R8
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
+google_site_verification: XrM_qb4R-sIgh61BXQXWad8GLnSCIZDqTIOOBzibbt8 # change to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -66,7 +57,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-D2EFN6EGK8 # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
 

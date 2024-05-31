@@ -3,12 +3,6 @@
 - type: github
   icon: "fab fa-github"
 
-- type: instagram
-  icon: "fab fa-instagram"
-
-- type: naverblog
-  icon: "fas fa-blog"
-
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/donghwa-kang-153b9022b/'                  # Fill with your Linkedin homepage
