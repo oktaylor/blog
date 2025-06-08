@@ -706,8 +706,8 @@ $btn-mb: 0.5rem;
   width: $sidebar-width;
   z-index: 99;
   border-right: 1px solid var(--sidebar-border-color);
-  background: url('background.jpg');
-  background-size: 160% 120%;
+  background: url('background.png');
+  background-size: 130% 100%;
   background-position: center;
 
   /* Hide scrollbar for Chrome, Safari and Opera */
@@ -768,13 +768,13 @@ $btn-mb: 0.5rem;
       @extend %clickable-transition;
       @extend %sidebar-link-hover;
 
-      color: rgba(0, 73, 140, 0.99);
+      color: rgba(8, 61, 0, 0.99);
     }
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: rgba(0, 73, 140, 0.99);
+    color: rgba(8, 61, 0, 0.99);
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
@@ -808,13 +808,13 @@ $btn-mb: 0.5rem;
           font-size: 95%;
           opacity: 1;
           margin-right: 1.5rem;
-          color: rgba(73, 83, 87, 0.9);
+          color: rgb(33, 82, 25);
         }
 
         span {
-          font-size: 90%;
+          font-size: 100%;
           letter-spacing: 0.2px;
-          color: rgba(73, 83, 87, 0.9);
+          color: rgb(33, 82, 25);
         }
       }
 
@@ -848,7 +848,7 @@ $btn-mb: 0.5rem;
       margin-bottom: $btn-mb; // multi line gap
       border-radius: 50%;
       color: var(--sidebar-btn-color);
-      background-color: rgba(204, 219, 233, 0.8);
+      background-color: rgba(216, 233, 204, 0.8);
       text-align: center;
       display: flex;
       align-items: center;
@@ -857,7 +857,7 @@ $btn-mb: 0.5rem;
 
       &:hover {
         color: var(--link-color);
-        background-color: var(--sidebar-hover-bg);
+        background-color: rgba(216, 233, 204, 0.8);
       }
     }
 

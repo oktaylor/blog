@@ -4,8 +4,8 @@
 
 /* sidebar */
 
-$sidebar-width: 300px !default; /* the basic width */
-$sidebar-width-large: 350px !default; /* screen width: >= 1650px */
+$sidebar-width: 250px !default; /* the basic width */
+$sidebar-width-large: 250px !default; /* screen width: >= 1650px */
 $sb-btn-gap: 0.8rem !default;
 $sb-btn-gap-lg: 1rem !default;
 
@@ -29,6 +29,6 @@ $code-icon-width: 1.75rem !default;
 
 /* fonts */
 
-$font-family-base: 'Noto Serif KR', 'Source Sans Pro', 'Microsoft Yahei',
+$font-family-base: 'Source Sans Pro', 'Microsoft Yahei',
   sans-serif !default;
-$font-family-heading: Lato, 'Noto Serif KR', 'Microsoft Yahei' , sans-serif !default;
+$font-family-heading: Lato, 'Microsoft Yahei' , sans-serif !default;
